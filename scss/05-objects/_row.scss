@@ -8,6 +8,6 @@
     padding: 1.5 * $grid-base;
 
     @include medium {
-        flex-direction: row;
+        flex-direction: column;
     }
 }
