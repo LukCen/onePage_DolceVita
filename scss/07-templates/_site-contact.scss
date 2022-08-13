@@ -1,6 +1,7 @@
 @use '../01-settings/' as *;
 
 .site-contact {
+
     background: url('../../assets/img/contact.jpeg') center/cover fixed;
     color: $color-white;
     position: relative;
@@ -16,5 +17,12 @@
 
     &__h2 {
         position: absolute;
+    }
+
+    &__form {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -40%);
     }
 }
