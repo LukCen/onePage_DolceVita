@@ -189,4 +189,16 @@ p {
   padding: 0;
 }
 
+.site-header {
+  background: url("../../assets/img/start.jpeg") center/cover fixed;
+  height: 100vh;
+}
+.site-header__button {
+  position: absolute;
+  bottom: 15%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
 /*# sourceMappingURL=style.css.map */
