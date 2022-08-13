@@ -247,7 +247,7 @@ p {
   border-top-left-radius: 0.6rem;
   border-top-right-radius: 0.6rem;
 }
-.image-box__image__next {
+.image-box__image--next {
   background: url("../assets/img/two.jpeg") center/cover;
 }
 @media screen and (min-width: 768px) {
