@@ -233,6 +233,37 @@ p {
   background-color: #74030e;
 }
 
+.image-box {
+  border-radius: 0.6rem;
+  box-shadow: 0px 0px;
+}
+.image-box:hover {
+  box-shadow: 0px 0px 25px gray;
+}
+.image-box__image {
+  background: url("../assets/img/one.jpg") center/cover;
+  height: 22rem;
+  display: block;
+  border-top-left-radius: 0.6rem;
+  border-top-right-radius: 0.6rem;
+}
+.image-box__image__next {
+  background: url("../assets/img/two.jpeg") center/cover;
+}
+@media screen and (min-width: 768px) {
+  .image-box__image {
+    height: 16rem;
+  }
+}
+.image-box__text {
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 1.6rem;
+  margin: 2rem;
+  cursor: pointer;
+  font-family: Roboto, "sans-serif";
+}
+
 .site-header {
   background: url("../../assets/img/start.jpeg") center/cover fixed;
   height: 100vh;
